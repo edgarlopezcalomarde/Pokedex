@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #02adff;
+}
+
+.pokeBorder{
+    border:  3px solid black;
+    border-radius: 6px;
+    background-color: #e70d0b;
+
+}
+
+
+.pokedex{
+    background-color: #e70d0b;
+    border: 3px solid black;
+    border-radius: 6px;
+
+    margin: 4px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.box{
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.identifier{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4fcc65;
+    border: 3px solid #359946; 
+    outline: 3px solid #404040;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.nombre, .no{
+    font-weight: 600;
+}
+
+
+
+.pantalla{
+    background-color: #4fcc65;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 4px;
+  
+    border: 3px solid #359946; 
+    outline: 3px solid #404040;
+}
+
+.descripcion{
+    width: 300px;
+    background-color: #4fcc65;
+    border-radius: 4px;
+    
+    border: 3px solid #359946; 
+    outline: 3px solid #404040;
+    padding: 10px;
+}
+
+.types{
+    display: flex;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 10px;
+
+}
+
+
+.type{
+    padding: 4px 28px;
+    border:  2px solid black;
+    border-radius: 16px;
+    background-color: purple;
+    color: black;
+}
+
+
+.stats{
+    background-color: #4fcc65;
+    padding:  10px 5px;
+    border: 3px solid #359946; 
+    outline: 3px solid #404040;
+    border-radius: 4px;
+    color: black;
+}
+
+
+
+.habilidades{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 10px;
+}
+
+.habilidad{
+    background-color:#4fcc65;
+    border: 3px solid #359946; 
+    outline: 3px solid #404040;
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+}
+
+.buscadorBox{
+    padding: 20px;
+}
+
+
+.pokeimg{
+    width: 150px;
+}
+
+table{
+    width: 100%;
+}
+
+
+tr{
+
+    border:  2px solid black;
+    border-radius: 3px;
+    margin: 3px;
+   
+}
+
+.row{
+    display: flex;
+}
+
+
+.principal{
+    flex-grow: 3;
+    background-color: #8898a8;
+}
+
+.alternative{
+    width: 25px;
+    background-color: #e0e8e8;
+    text-align: center;
+}
+
+.oculto{
+    visibility: hidden;
+   
+}
